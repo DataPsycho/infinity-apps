@@ -1,0 +1,7 @@
+# Fild a process using port
+lsof -i :5000
+# Kill the process is running on that port
+sudo kill -9 13069
+
+# export and run a flask app
+export FLASK_APP=app.py && export FLASK_DEBUG=true && flask run

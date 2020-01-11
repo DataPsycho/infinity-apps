@@ -1,0 +1,12 @@
+# start data base in psql
+# --> psql -U fyyur_admin -h 127.0.0.1 fyyur
+
+# Find a process using port
+# --> lsof -i :5000
+# Kill the process is running on that port
+# --> sudo kill -9 13069
+
+
+# export and run a flask app
+# cd ~/PycharmProjects/NanoProjects/fyyur
+# --> export FLASK_APP=app.py && export FLASK_DEBUG=true && flask run
